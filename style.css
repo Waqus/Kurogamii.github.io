@@ -1,0 +1,59 @@
+body
+{
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.wrapper
+{
+    text-align: center;
+}
+#startButton
+{
+    cursor: pointer;
+    right: 40%;
+    position: absolute;
+    top: 20%;
+    background: transparent;
+    border: 0px;
+}
+#stonesId
+{
+    margin: 10px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#speedId
+{
+    margin: 10px;
+    top: 20px;
+    left: 0;
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#upgradeStones
+{
+    position: absolute;
+    top: 40px;
+}
+#upgradeSpeed
+{
+    position: absolute;
+    top: 60px;
+}
+canvas
+{
+    
+    box-shadow: 0 0 1em white;
+    display: block;
+    margin: auto;
+    padding: auto;
+    border: 1px solid white;
+    /*margin-top: 50%;*/
+}
+.gameMenu{
+    display: block;
+    box-shadow: 0 0 1em white;
+}
